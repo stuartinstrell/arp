@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 11</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="01-Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-Desktop" transform="translate(-385.000000, -1033.000000)">
+            <g id="Group-6-Copy" transform="translate(0.000000, 1023.000000)">
+                <g id="Group-10-Copy" transform="translate(385.000000, 10.000000)">
+                    <g id="Group-11">
+                        <path d="M20,40 C31.045695,40 40,31.045695 40,20 C40,8.954305 31.045695,0 20,0 C8.954305,0 0,8.954305 0,20 C0,31.045695 8.954305,40 20,40 Z" id="Oval-27" fill="#FFFFFF"></path>
+                        <text id="" font-family="FontAwesome" font-size="16" font-weight="normal" fill="#000000">
+                            <tspan x="12" y="26"></tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

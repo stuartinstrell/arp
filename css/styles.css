@@ -1,0 +1,1699 @@
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/* line 14, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 24, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* line 38, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 59, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* line 72, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 82, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/* line 94, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+a {
+  background-color: transparent;
+}
+
+/* line 104, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+a:active {
+  outline: 0;
+}
+
+/* line 107, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+a:hover {
+  outline: 0;
+}
+
+/* line 119, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 127, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 136, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 145, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 154, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 163, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 171, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 179, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 183, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 194, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+img {
+  border: 0;
+  display: block;
+  max-width: 100%;
+}
+
+/* line 204, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 215, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/* line 223, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 232, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+pre {
+  overflow: auto;
+}
+
+/* line 240, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* line 263, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+/* line 277, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+button {
+  overflow: visible;
+}
+
+/* line 288, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 301, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 313, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 322, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 333, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+input {
+  line-height: normal;
+}
+
+/* line 345, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 357, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 367, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+
+/* line 378, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 387, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 398, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 407, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+textarea {
+  overflow: auto;
+}
+
+/* line 416, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/* line 427, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 432, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/vendor/normalize/_normalize.scss */
+td,
+th {
+  padding: 0;
+}
+
+/* line 1, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_header.scss */
+header {
+  padding: 35px 0;
+}
+
+/* line 4, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_header.scss */
+header .container {
+  overflow: hidden;
+}
+
+/* line 8, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_header.scss */
+header .logo {
+  float: left;
+}
+
+@media (max-width: 940px) {
+  /* line 8, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_header.scss */
+  header .logo {
+    width: 150px;
+  }
+}
+
+/* line 15, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_header.scss */
+header .phone-mobile {
+  float: left;
+  display: none;
+}
+
+/* line 19, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_header.scss */
+header .phone-mobile img {
+  float: left;
+  display: inline-block;
+  margin: 11px 0 0 30px;
+}
+
+@media (max-width: 940px) {
+  /* line 19, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_header.scss */
+  header .phone-mobile img {
+    margin: 2px 0 0 30px;
+  }
+}
+
+@media (max-width: 650px) {
+  /* line 19, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_header.scss */
+  header .phone-mobile img {
+    margin: 5px 0 0 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  /* line 15, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_header.scss */
+  header .phone-mobile {
+    display: block;
+  }
+}
+
+/* line 35, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_header.scss */
+header .search {
+  float: right;
+  margin-top: 5px;
+}
+
+@media (max-width: 940px) {
+  /* line 35, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_header.scss */
+  header .search {
+    display: none;
+  }
+}
+
+/* line 42, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_header.scss */
+header .search p {
+  font-size: 16px;
+  font-weight: 300;
+  float: left;
+  margin: 12px 30px 0 0;
+}
+
+@media (max-width: 1024px) {
+  /* line 42, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_header.scss */
+  header .search p {
+    display: none;
+  }
+}
+
+/* line 52, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_header.scss */
+header .search input {
+  float: right;
+  border: 1px solid #D0D2D3;
+  background: url("../img/search-icon.svg") 95% center no-repeat white;
+  border-radius: 22px;
+  width: 268px;
+  padding: 10px 15px;
+  transition: 0.5s;
+}
+
+/* line 60, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_header.scss */
+header .search input:hover {
+  width: 400px;
+}
+
+@media (max-width: 940px) {
+  /* line 1, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_header.scss */
+  header {
+    padding: 20px 0;
+  }
+}
+
+/* line 1, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_nav.scss */
+nav {
+  background: #F3F3F3;
+  font-size: 18px;
+}
+
+@media (max-width: 940px) {
+  /* line 1, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_nav.scss */
+  nav {
+    display: none;
+  }
+}
+
+/* line 8, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_nav.scss */
+nav .container {
+  height: 62px;
+}
+
+/* line 12, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_nav.scss */
+nav ul {
+  float: left;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+/* line 18, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_nav.scss */
+nav ul li {
+  display: inline-block;
+  float: left;
+}
+
+/* line 23, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_nav.scss */
+nav ul li:first-child a {
+  padding-right: 20px;
+}
+
+/* line 29, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_nav.scss */
+nav ul li:last-child {
+  background: #EAEAEA;
+  float: right;
+  margin-right: 0;
+  position: relative;
+}
+
+/* line 35, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_nav.scss */
+nav ul li:last-child a {
+  padding: 20px 20px 20px 25px;
+}
+
+/* line 39, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_nav.scss */
+nav ul li:last-child:hover {
+  background: #D2D2D2;
+}
+
+/* line 43, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_nav.scss */
+nav ul li:last-child:hover .dropdown {
+  display: block;
+}
+
+/* line 48, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_nav.scss */
+nav ul li a {
+  padding: 20px 10px 20px 20px;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+/* line 55, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_nav.scss */
+nav ul li a img {
+  float: right;
+  margin: 8px;
+}
+
+@media (max-width: 970px) {
+  /* line 48, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_nav.scss */
+  nav ul li a {
+    padding: 20px 5px 20px 15px;
+  }
+}
+
+/* line 65, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_nav.scss */
+nav ul li:hover {
+  background: #D2D2D2;
+}
+
+/* line 69, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_nav.scss */
+nav ul li:hover .dropdown {
+  display: block;
+}
+
+/* line 73, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_nav.scss */
+nav ul li:nth-child(6) a {
+  padding-right: 20px;
+}
+
+/* line 81, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_nav.scss */
+nav ul:hover .dropdown li:last-child {
+  background: inherit;
+}
+
+/* line 87, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_nav.scss */
+nav ul .dropdown {
+  display: none;
+  position: absolute;
+  width: 175px;
+  z-index: 9999;
+}
+
+/* line 93, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_nav.scss */
+nav ul .dropdown li {
+  float: left;
+  display: block;
+  width: 100%;
+  clear: left;
+}
+
+/* line 99, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_nav.scss */
+nav ul .dropdown li a {
+  background: #eaeaea;
+  display: block;
+  box-shadow: 0 1px 0 0 #B7BCC0 inset;
+}
+
+/* line 104, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_nav.scss */
+nav ul .dropdown li a:hover {
+  background: #D2D2D2;
+}
+
+/* line 108, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_nav.scss */
+nav ul .dropdown li a:first-child {
+  padding-left: 25px;
+}
+
+/* line 114, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_nav.scss */
+nav ul .dropdown li:last-child {
+  background: inherit;
+}
+
+/* line 1, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_hero.scss */
+#hero {
+  height: 900px;
+  background-size: cover;
+  text-align: center;
+  border-top: 1px solid #B7BCC0;
+}
+
+/* line 8, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_hero.scss */
+#hero .container {
+  padding-top: 316px;
+}
+
+@media (max-width: 1024px) {
+  /* line 8, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_hero.scss */
+  #hero .container {
+    padding: 150px 0;
+  }
+}
+
+@media (max-width: 650px) {
+  /* line 8, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_hero.scss */
+  #hero .container {
+    padding: 70px 0;
+  }
+}
+
+/* line 18, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_hero.scss */
+#hero h1 {
+  font-size: 42px;
+  font-weight: 200;
+  margin: 0 0 15px;
+}
+
+@media (max-width: 650px) {
+  /* line 18, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_hero.scss */
+  #hero h1 {
+    margin: 0 auto 15px;
+    max-width: 80%;
+    font-size: 21px;
+    font-weight: 500;
+  }
+}
+
+/* line 30, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_hero.scss */
+#hero p {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0 0 35px;
+}
+
+/* line 36, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_hero.scss */
+#hero .product-select {
+  text-align: center;
+}
+
+/* line 39, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_hero.scss */
+#hero .product-select .select {
+  float: none;
+  display: inline-block;
+  margin: 0 10px 0 0;
+  position: relative;
+}
+
+@media (max-width: 414px) {
+  /* line 39, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_hero.scss */
+  #hero .product-select .select {
+    margin: 0 auto;
+    width: 70%;
+  }
+}
+
+/* line 49, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_hero.scss */
+#hero .product-select .select select {
+  border: 1px solid #B7BCC0;
+  background: transparent;
+  -webkit-appearance: none;
+  border-radius: 5px;
+  padding-left: 15px;
+  height: 40px;
+  width: 206px;
+  color: #878787;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 650px) {
+  /* line 49, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_hero.scss */
+  #hero .product-select .select select {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 414px) {
+  /* line 49, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_hero.scss */
+  #hero .product-select .select select {
+    width: 100%;
+  }
+}
+
+/* line 66, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_hero.scss */
+#hero .product-select .select select:hover {
+  cursor: pointer;
+}
+
+/* line 71, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_hero.scss */
+#hero .product-select .select:after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 38px;
+  width: 40px;
+  top: 0;
+  right: 0;
+  background: url("../img/down-arrow-grey.svg") center no-repeat #F1F1F2;
+  border: 1px solid #B7BCC0;
+  border-radius: 0 5px 5px 0;
+  z-index: 0;
+}
+
+/* line 86, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_hero.scss */
+#hero .product-select a {
+  float: none;
+  background: #F1F1F2;
+  border: 1px solid #B7BCC0;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #878787;
+  font-weight: bold;
+  display: inline-block;
+  padding: 11px 35px;
+  text-decoration: none;
+}
+
+@media (max-width: 414px) {
+  /* line 86, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_hero.scss */
+  #hero .product-select a {
+    display: block;
+    width: 52%;
+    margin: 0 auto;
+  }
+}
+
+/* line 102, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_hero.scss */
+#hero .product-select a:hover {
+  background: #B7BCC0;
+  color: #fff;
+}
+
+@media (max-width: 1024px) {
+  /* line 1, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_hero.scss */
+  #hero {
+    height: auto;
+  }
+}
+
+/* line 1, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_core-values.scss */
+#core-values {
+  background: #D8D8D8;
+  text-align: center;
+  padding: 10px 0 6px;
+}
+
+/* line 6, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_core-values.scss */
+#core-values div {
+  display: inline-block;
+  float: none;
+  margin: 0 3%;
+}
+
+@media (max-width: 940px) {
+  /* line 6, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_core-values.scss */
+  #core-values div {
+    margin: 0 2%;
+  }
+}
+
+@media (max-width: 1024px) {
+  /* line 6, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_core-values.scss */
+  #core-values div {
+    margin: 0 1.5%;
+  }
+}
+
+@media (max-width: 650px) {
+  /* line 6, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_core-values.scss */
+  #core-values div {
+    margin: 0 auto 5px;
+    width: 80%;
+  }
+}
+
+/* line 21, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_core-values.scss */
+#core-values div img {
+  float: left;
+  margin-right: 7px;
+}
+
+@media (max-width: 650px) {
+  /* line 21, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_core-values.scss */
+  #core-values div img {
+    float: right;
+    margin-right: 0;
+  }
+}
+
+/* line 30, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_core-values.scss */
+#core-values div p {
+  float: left;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 12px 0 0;
+}
+
+@media (max-width: 700px) {
+  /* line 30, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_core-values.scss */
+  #core-values div p {
+    font-size: 12px;
+  }
+}
+
+/* line 1, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_products-featured.scss */
+#products-featured {
+  border-bottom: 1px solid #B7BCC0;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  /* line 1, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_products-featured.scss */
+  #products-featured {
+    border-bottom: 0;
+  }
+}
+
+@media (max-width: 650px) {
+  /* line 1, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_products-featured.scss */
+  #products-featured {
+    border-bottom: 0;
+  }
+}
+
+/* line 11, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_products-featured.scss */
+#products-featured div {
+  background: #F3F3F3;
+  text-align: center;
+  display: inline-block;
+  float: left;
+  width: 25%;
+  overflow: hidden;
+  box-shadow: -1px 0 0 #B7BCC0 inset;
+  padding: 74px 0;
+}
+
+@media (max-width: 768px) {
+  /* line 11, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_products-featured.scss */
+  #products-featured div {
+    width: 50%;
+    box-shadow: 0 -1px 0 #B7BCC0 inset, -1px 0 0 #B7BCC0 inset;
+  }
+  /* line 23, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_products-featured.scss */
+  #products-featured div:nth-child(2) {
+    box-shadow: 0 -1px 0 #B7BCC0 inset;
+  }
+  /* line 26, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_products-featured.scss */
+  #products-featured div:last-child {
+    box-shadow: 0 -1px 0 #B7BCC0 inset;
+  }
+}
+
+@media (max-width: 414px) {
+  /* line 11, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_products-featured.scss */
+  #products-featured div {
+    width: 100%;
+    box-shadow: none;
+    border-bottom: 1px solid #B7BCC0;
+  }
+  /* line 34, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_products-featured.scss */
+  #products-featured div:nth-child(2) {
+    box-shadow: none;
+  }
+  /* line 37, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_products-featured.scss */
+  #products-featured div:last-child {
+    box-shadow: none;
+  }
+}
+
+/* line 42, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_products-featured.scss */
+#products-featured div:last-child {
+  box-shadow: 0;
+}
+
+/* line 46, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_products-featured.scss */
+#products-featured div h3 {
+  font-size: 20px;
+  margin: 0 auto 20px;
+  font-weight: 300;
+  max-width: 80%;
+  text-align: center;
+  height: 47px;
+}
+
+@media (max-width: 940px) {
+  /* line 46, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_products-featured.scss */
+  #products-featured div h3 {
+    height: 77px;
+  }
+}
+
+@media (max-width: 700px) {
+  /* line 46, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_products-featured.scss */
+  #products-featured div h3 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 414px) {
+  /* line 46, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_products-featured.scss */
+  #products-featured div h3 {
+    height: auto;
+  }
+}
+
+/* line 64, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_products-featured.scss */
+#products-featured div a {
+  background: #B7BCC0;
+  border-radius: 5px;
+  padding: 11px 30px;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+@media (max-width: 700px) {
+  /* line 64, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_products-featured.scss */
+  #products-featured div a {
+    padding: 11px 15px;
+  }
+}
+
+@media (max-width: 650px) {
+  /* line 64, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_products-featured.scss */
+  #products-featured div a {
+    padding: 11px 34px;
+  }
+}
+
+/* line 78, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_products-featured.scss */
+#products-featured div a:hover {
+  background: #94989c;
+}
+
+/* line 1, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+.case-studies-carousel {
+  width: 100%;
+  clear: left;
+  position: relative;
+  height: 560px;
+}
+
+@media (max-width: 768px) {
+  /* line 1, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+  .case-studies-carousel {
+    height: auto;
+  }
+}
+
+/* line 10, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+.case-studies-carousel .title {
+  width: 12.50%;
+  background: white;
+  float: left;
+  display: inline-block;
+  height: 560px;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  /* line 10, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+  .case-studies-carousel .title {
+    width: 100%;
+    height: auto;
+    float: none;
+    border-bottom: 1px solid #CACED1;
+  }
+}
+
+/* line 24, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+.case-studies-carousel .title h3 {
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  transform: translateX(-50%) rotate(-90deg);
+  position: absolute;
+  top: 50%;
+  margin: -12px auto 0;
+  left: 50%;
+  width: 200px;
+  height: 21px;
+  letter-spacing: 5px;
+}
+
+@media (max-width: 768px) {
+  /* line 24, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+  .case-studies-carousel .title h3 {
+    transform: none;
+    position: static;
+    margin: 30px auto;
+  }
+}
+
+/* line 44, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+.case-studies-carousel .cycle-slideshow {
+  width: 87.5%;
+  float: left;
+}
+
+@media (max-width: 768px) {
+  /* line 44, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+  .case-studies-carousel .cycle-slideshow {
+    width: 100%;
+    float: none;
+  }
+}
+
+/* line 52, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+.case-studies-carousel .cycle-slideshow .image {
+  width: 71.4%;
+  float: left;
+  display: inline-block;
+  background: #D8D8D8;
+  height: 560px;
+}
+
+@media (max-width: 1024px) {
+  /* line 52, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+  .case-studies-carousel .cycle-slideshow .image {
+    width: 56.4%;
+  }
+}
+
+@media (max-width: 768px) {
+  /* line 52, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+  .case-studies-carousel .cycle-slideshow .image {
+    width: 50%;
+  }
+}
+
+@media (max-width: 650px) {
+  /* line 52, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+  .case-studies-carousel .cycle-slideshow .image {
+    width: 100%;
+    height: auto;
+    float: none;
+  }
+}
+
+/* line 70, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+.case-studies-carousel .cycle-slideshow .image img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  /* line 70, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+  .case-studies-carousel .cycle-slideshow .image img {
+    height: 400px;
+  }
+}
+
+/* line 79, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+.case-studies-carousel .cycle-slideshow .details {
+  width: 28.6%;
+  background: white;
+  float: left;
+  height: 560px;
+  display: inline-block;
+}
+
+@media (max-width: 1024px) {
+  /* line 79, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+  .case-studies-carousel .cycle-slideshow .details {
+    width: 43.6%;
+  }
+}
+
+@media (max-width: 768px) {
+  /* line 79, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+  .case-studies-carousel .cycle-slideshow .details {
+    width: 50%;
+    height: auto;
+    float: none;
+    padding: 40px 0;
+    height: 480px;
+  }
+}
+
+@media (max-width: 650px) {
+  /* line 79, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+  .case-studies-carousel .cycle-slideshow .details {
+    width: 100%;
+    height: 270px;
+  }
+}
+
+@media (max-width: 414px) {
+  /* line 79, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+  .case-studies-carousel .cycle-slideshow .details {
+    height: 370px;
+    text-align: center;
+  }
+}
+
+/* line 104, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+.case-studies-carousel .cycle-slideshow .details h4 {
+  font-size: 24px;
+  font-weight: 300;
+  max-width: 80%;
+  margin: 50px auto 25px;
+}
+
+@media (max-width: 768px) {
+  /* line 104, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+  .case-studies-carousel .cycle-slideshow .details h4 {
+    margin-top: 0;
+    max-width: 90%;
+  }
+}
+
+/* line 115, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+.case-studies-carousel .cycle-slideshow .details p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width: 1102px) {
+  /* line 115, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+  .case-studies-carousel .cycle-slideshow .details p {
+    overflow: auto;
+    max-height: 240px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* line 115, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+  .case-studies-carousel .cycle-slideshow .details p {
+    max-width: 90%;
+  }
+}
+
+/* line 132, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+.case-studies-carousel .pager {
+  position: absolute;
+  z-index: 9998;
+  bottom: 50px;
+  right: 0;
+  width: 25%;
+}
+
+@media (max-width: 1024px) {
+  /* line 132, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+  .case-studies-carousel .pager {
+    width: 38%;
+  }
+}
+
+@media (max-width: 768px) {
+  /* line 132, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+  .case-studies-carousel .pager {
+    width: 50%;
+  }
+}
+
+@media (max-width: 650px) {
+  /* line 132, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+  .case-studies-carousel .pager {
+    width: 100%;
+  }
+}
+
+@media (max-width: 414px) {
+  /* line 132, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+  .case-studies-carousel .pager {
+    text-align: center;
+  }
+}
+
+/* line 151, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+.case-studies-carousel .pager a {
+  background: #D8D8D8;
+  border: 1px solid #979797;
+  padding: 16px 20px;
+  display: inline-block;
+  float: left;
+}
+
+@media (max-width: 414px) {
+  /* line 151, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+  .case-studies-carousel .pager a {
+    display: inline-block;
+    float: none;
+    margin-left: -5px;
+    clear: both;
+  }
+}
+
+/* line 164, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+.case-studies-carousel .pager a:first-child {
+  border-right: 0;
+  margin-left: 10%;
+}
+
+@media (max-width: 768px) {
+  /* line 164, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+  .case-studies-carousel .pager a:first-child {
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 414px) {
+  /* line 164, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+  .case-studies-carousel .pager a:first-child {
+    margin-left: 0;
+  }
+}
+
+/* line 174, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+.case-studies-carousel .pager a:hover {
+  background: #B7BCC0;
+}
+
+/* line 179, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+.case-studies-carousel .pager p {
+  font-size: 14px;
+  text-decoration: underline;
+  margin-left: 15px;
+  float: left;
+}
+
+@media (max-width: 1102px) {
+  /* line 179, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+  .case-studies-carousel .pager p {
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 1024px) {
+  /* line 179, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+  .case-studies-carousel .pager p {
+    clear: left;
+  }
+}
+
+@media (max-width: 768px) {
+  /* line 179, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+  .case-studies-carousel .pager p {
+    clear: none;
+  }
+}
+
+@media (max-width: 414px) {
+  /* line 179, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_case-studies-carousel.scss */
+  .case-studies-carousel .pager p {
+    clear: both;
+    text-align: center;
+    float: none;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+}
+
+/* line 1, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_featured-content.scss */
+.featured-content {
+  height: 560px;
+  overflow: hidden;
+}
+
+@media (max-width: 650px) {
+  /* line 1, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_featured-content.scss */
+  .featured-content {
+    height: auto;
+  }
+}
+
+/* line 8, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_featured-content.scss */
+.featured-content img {
+  width: 31.38888%;
+  float: left;
+  display: inline-block;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  /* line 8, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_featured-content.scss */
+  .featured-content img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 650px) {
+  /* line 8, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_featured-content.scss */
+  .featured-content img {
+    width: 100%;
+    height: 400px;
+    float: left;
+  }
+}
+
+/* line 23, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_featured-content.scss */
+.featured-content .details {
+  background: #838383;
+  float: left;
+  display: inline-block;
+  width: 68.61112%;
+  height: 100%;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  /* line 23, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_featured-content.scss */
+  .featured-content .details {
+    width: 50%;
+  }
+}
+
+@media (max-width: 650px) {
+  /* line 23, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_featured-content.scss */
+  .featured-content .details {
+    width: 100%;
+    float: none;
+    padding: 50px 0;
+  }
+}
+
+/* line 39, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_featured-content.scss */
+.featured-content .details h4 {
+  font-size: 24px;
+  font-weight: 300;
+  margin: 190px auto 20px;
+  max-width: 75%;
+}
+
+@media (max-width: 768px) {
+  /* line 39, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_featured-content.scss */
+  .featured-content .details h4 {
+    margin: 160px auto 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  /* line 39, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_featured-content.scss */
+  .featured-content .details h4 {
+    margin-top: 0;
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 414px) {
+  /* line 39, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_featured-content.scss */
+  .featured-content .details h4 {
+    text-align: center;
+  }
+}
+
+/* line 56, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_featured-content.scss */
+.featured-content .details p {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 auto;
+  max-width: 75%;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 650px) {
+  /* line 56, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_featured-content.scss */
+  .featured-content .details p {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 414px) {
+  /* line 56, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_featured-content.scss */
+  .featured-content .details p {
+    text-align: center;
+  }
+}
+
+/* line 70, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_featured-content.scss */
+.featured-content .details a {
+  float: left;
+  display: inline-block;
+  background: #F1F1F2;
+  color: #878787;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 12.5%;
+  padding: 11px 37px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+@media (max-width: 650px) {
+  /* line 70, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_featured-content.scss */
+  .featured-content .details a {
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 414px) {
+  /* line 70, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_featured-content.scss */
+  .featured-content .details a {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    float: none;
+    width: 76px;
+  }
+}
+
+/* line 91, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_featured-content.scss */
+.featured-content .details a:hover {
+  background: #B7BCC0;
+  color: #fff;
+}
+
+/* line 1, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_callout.scss */
+.callout {
+  text-align: center;
+  padding: 45px 0;
+}
+
+/* line 5, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_callout.scss */
+.callout h3 {
+  font-size: 22px;
+  font-weight: 300;
+  float: none;
+  display: inline-block;
+  margin: 0 100px 0 0;
+}
+
+@media (max-width: 768px) {
+  /* line 5, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_callout.scss */
+  .callout h3 {
+    margin: 0 20px 0 0;
+  }
+}
+
+@media (max-width: 700px) {
+  /* line 5, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_callout.scss */
+  .callout h3 {
+    font-size: 20px;
+    margin: 0 10px 0 0;
+  }
+}
+
+@media (max-width: 650px) {
+  /* line 5, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_callout.scss */
+  .callout h3 {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+}
+
+/* line 24, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_callout.scss */
+.callout a {
+  float: none;
+  display: inline-block;
+  margin-right: 5px;
+  padding: 11px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  background: #F1F1F2;
+  color: #878787;
+  border: 1px solid #BBBDBF;
+}
+
+/* line 35, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_callout.scss */
+.callout a:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 414px) {
+  /* line 35, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_callout.scss */
+  .callout a:last-child {
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 414px) {
+  /* line 24, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_callout.scss */
+  .callout a {
+    margin: 0 auto 10px;
+    width: 70%;
+    display: block;
+  }
+}
+
+/* line 46, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_callout.scss */
+.callout a:hover {
+  background: #BBBDBF;
+  color: #fff;
+}
+
+/* line 1, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_footer.scss */
+footer {
+  border-top: 1px solid #B7BCC0;
+  padding: 50px 0 20px;
+  overflow: hidden;
+}
+
+@media (max-width: 650px) {
+  /* line 6, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_footer.scss */
+  footer .container {
+    text-align: center;
+  }
+}
+
+/* line 12, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_footer.scss */
+footer ul {
+  display: inline-block;
+  float: left;
+  margin: 0 100px 50px 0;
+  padding: 0;
+}
+
+@media (max-width: 1102px) {
+  /* line 12, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_footer.scss */
+  footer ul {
+    margin-right: 7%;
+  }
+}
+
+@media (max-width: 650px) {
+  /* line 12, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_footer.scss */
+  footer ul {
+    float: none;
+    margin: 0 auto 20px;
+    overflow: hidden;
+    width: auto;
+    clear: left;
+    width: 208px;
+  }
+}
+
+/* line 29, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_footer.scss */
+footer ul li {
+  font-size: 16px;
+  display: inline-block;
+  float: left;
+  color: black;
+  clear: left;
+  line-height: 24px;
+}
+
+/* line 37, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_footer.scss */
+footer ul li.title {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+/* line 42, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_footer.scss */
+footer ul li a {
+  font-size: 16px;
+  font-weight: 300;
+  display: inline-block;
+  text-decoration: none;
+  color: #5D5D5D;
+}
+
+/* line 52, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_footer.scss */
+footer .social {
+  text-align: center;
+  float: right;
+  margin-top: 36px;
+}
+
+@media (max-width: 1102px) {
+  /* line 52, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_footer.scss */
+  footer .social {
+    margin-top: 39px;
+  }
+}
+
+@media (max-width: 650px) {
+  /* line 52, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_footer.scss */
+  footer .social {
+    width: 130px;
+    overflow: hidden;
+    float: none;
+    display: block;
+    margin: 30px auto 20px;
+  }
+}
+
+/* line 68, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_footer.scss */
+footer .social img {
+  margin: 0 auto 20px;
+}
+
+@media (max-width: 1102px) {
+  /* line 68, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_footer.scss */
+  footer .social img {
+    width: 130px;
+    float: right;
+    margin: 0;
+  }
+}
+
+/* line 77, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_footer.scss */
+footer .social a {
+  float: none;
+  display: inline-block;
+  width: 40px;
+  height: auto;
+}
+
+@media (max-width: 1102px) {
+  /* line 77, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_footer.scss */
+  footer .social a {
+    float: left;
+    margin: -7px 7px 0 0;
+  }
+}
+
+@media (max-width: 650px) {
+  /* line 77, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_footer.scss */
+  footer .social a {
+    float: none;
+    margin: 15px 7px 0 0;
+  }
+}
+
+/* line 93, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_footer.scss */
+footer .legal {
+  color: #909090;
+  font-size: 14px;
+  float: left;
+  clear: left;
+  font-weight: 100;
+  margin: 0;
+}
+
+@media (max-width: 650px) {
+  /* line 93, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_footer.scss */
+  footer .legal {
+    float: none;
+  }
+}
+
+/* line 1, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_mobile-nav.scss */
+.hamburger {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+  display: none;
+}
+
+/* line 9, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_mobile-nav.scss */
+.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+  display: none;
+}
+
+/* line 16, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_mobile-nav.scss */
+.close img {
+  width: 36px;
+}
+
+/* line 21, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_mobile-nav.scss */
+.mobile-nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.9);
+  height: 100vh;
+  z-index: 9998;
+  display: none;
+  padding-top: 100px;
+}
+
+/* line 33, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_mobile-nav.scss */
+.mobile-nav ul {
+  text-align: center;
+  width: 100%;
+  padding: 0;
+}
+
+/* line 38, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_mobile-nav.scss */
+.mobile-nav ul li {
+  float: none;
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* line 43, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_mobile-nav.scss */
+.mobile-nav ul li a {
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+/* line 51, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_mobile-nav.scss */
+.mobile-nav ul li .dropdown {
+  display: none;
+  padding: 30px 0;
+}
+
+/* line 55, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_mobile-nav.scss */
+.mobile-nav ul li .dropdown li a {
+  color: grey;
+}
+
+/* line 60, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_mobile-nav.scss */
+.mobile-nav ul li:hover .dropdown {
+  display: block;
+}
+
+/* line 67, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_mobile-nav.scss */
+.active {
+  display: block;
+}
+
+@media (min-width: 940px) {
+  /* line 67, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/modules/_mobile-nav.scss */
+  .active {
+    display: none;
+  }
+}
+
+/* line 34, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/styles.scss */
+body {
+  font-family: helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+/* line 37, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/styles.scss */
+body.clicked {
+  overflow: hidden;
+}
+
+/* line 42, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/styles.scss */
+.container {
+  width: 1200px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+/* line 48, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/styles.scss */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+/* line 56, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/styles.scss */
+.clearfix {
+  display: inline-block;
+}
+
+/* start commented backslash hack \*/
+/* line 58, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/styles.scss */
+* html .clearfix {
+  height: 1%;
+}
+
+/* line 59, /Users/stuinstrell/Desktop/Work/ARP/Prototypes/sass/styles.scss */
+.clearfix {
+  display: block;
+}
+
+/* close commented backslash hack */
+
+/*# sourceMappingURL=../css/styles.map */

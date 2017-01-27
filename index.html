@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>ARP Homepage Prototype</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- EXTERNAL SCRIPTS -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="http://malsup.github.com/jquery.cycle2.js"></script>
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+        <div class="container">
+            <img class="logo" src="img/logo.png" alt="">
+
+            <a class="phone-mobile" href="#"><img src="img/phone-icon.svg"></a>
+
+            <div class="search">
+                <p>Call us today on 0116 2894400</p>
+                <input type="text">
+            </div>
+
+        </div>
+    </header>
+
+    <!-- NAV -->
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About <img src="img/down-arrow.svg"></a>
+                  <ul class="dropdown" style="width: 210px;">
+                      <li><a href="#">Core Values</a></li>
+                      <li><a href="#">Careers</a></li>
+                      <li><a href="#">Who Are We</a></li>
+                      <li><a href="#">News</a></li>
+                      <li><a href="#">The ARP Difference</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Products <img src="img/down-arrow.svg"></a>
+                  <ul class="dropdown" style="width: 190px;">
+                      <li><a href="#">Products</a></li>
+                      <li><a href="#">Brands</a></li>
+                      <li><a href="#">Sample Request</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Services <img src="img/down-arrow.svg"></a>
+                  <ul class="dropdown" style="width: 200px;">
+                      <li><a href="#">CPD</a></li>
+                      <li><a href="#">Rainfall Calculator</a></li>
+                      <li><a href="#">Find an Installer</a></li>
+                      <li><a href="#">Quote Request</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Key Information <img src="img/down-arrow.svg"></a>
+                  <ul class="dropdown" style="width: 270px;">
+                      <li><a href="#">Handling</a></li>
+                      <li><a href="#">Supply Management</a></li>
+                      <li><a href="#">Benefits of Aluminium</a></li>
+                      <li><a href="#">Getting Started</a></li>
+                      <li><a href="#">Certificates and Standards</a></li>
+                      <li><a href="#">Specification </a></li>
+                      <li><a href="#">FAQ's</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Case Studies</a></li>
+                <li><a href="#">Contact <img src="img/down-arrow.svg"></a>
+                    <ul class="dropdown">
+                        <li><a href="#">Contact ARP</a></li>
+                        <li><a href="#">Sales Contacts</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+
+    <div id="hero">
+        <div class="container">
+
+            <h1>What are you looking for?</h1>
+            <p>Select a product range below</p>
+
+            <div class="product-select">
+
+                <div class="select">
+                    <select>
+<option value="0">Please select...</option>
+<option value="1">One</option>
+<option value="2">Two</option>
+<option value="3">Three</option>
+<option value="4">Four</option>
+<option value="5">Five</option>
+</select>
+                </div>
+
+                <a href="#">View Range</a>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- CORE VALUES -->
+
+    <div id="core-values">
+
+        <div>
+            <img src="img/value-icon.svg">
+            <p>Value</p>
+        </div>
+
+        <div>
+            <img src="img/quality-icon.svg">
+            <p>Quality</p>
+        </div>
+
+        <div>
+            <img src="img/support-icon.svg">
+            <p>Support</p>
+        </div>
+
+        <div>
+            <img src="img/time-icon.svg">
+            <p>On Time</p>
+        </div>
+
+        <div>
+            <img src="img/eco-icon.svg">
+            <p>Eco-Friendly</p>
+        </div>
+
+    </div>
+
+    <!-- PRODUCTS FEATURED -->
+
+    <div id="products-featured">
+
+        <div>
+            <h3>Aluminium Rainwater
+ Systems</h3>
+            <a href="">View Product</a>
+        </div>
+
+        <div>
+            <h3>Britannia Cast Iron
+ Rainwater Systems</h3>
+            <a href="">View Product</a>
+        </div>
+
+        <div>
+            <h3>Mustang® Seamless
+ Gutter Systems</h3>
+            <a href="">View Product</a>
+        </div>
+
+        <div>
+            <h3>Trueline Aluminium
+ Pressings</h3>
+            <a href="">View Product</a>
+        </div>
+
+    </div>
+
+    <!-- CASE STUDIES CAROUSEL -->
+
+    <div class="case-studies-carousel">
+
+        <div class="pager">
+            <a id="prev" href="#"><img src="img/left-arrow.svg" alt=""></a>
+            <a id="next" href="#"><img src="img/right-arrow.svg" alt=""></a>
+            <p>view all case studies</p>
+        </div>
+
+        <div class="title">
+            <h3>Case Studies</h3></div>
+
+        <div class="cycle-slideshow" data-cycle-fx="fade" data-cycle-timeout="0" data-cycle-slides="> div" data-cycle-prev="#prev" data-cycle-next="#next">
+
+            <div>
+                <div class="image"><img src="img/slide-placeholder.jpg"></div>
+                <div class="details">
+                    <h4>Diglis Water, Worcester</h4>
+                    <p>The Diglis Water development spans 8 hectares and comprises new homes, including affordable housing, private homes and refurbished homes. It sits on the banks of the River Severn at its junction with Birmingham and Worcester Canal
+                        and is designed to make the most of the waterside environment.</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="image"><img src="img/slide-placeholder.jpg"></div>
+                <div class="details">
+                    <h4>Oakdale, Harrogate</h4>
+                    <p>The prestigious early 1900’s five bedroom detached listed building was scheduled for a full refurbishment and extension to be carried out by local developer, Kent Building Developments. Due to the location, local planning conditions
+                        required careful consideration to be given to every aspect of the project to ensure the historic aesthetics of the building were not compromised.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- FEATURED CONTENT -->
+
+    <div class="featured-content">
+
+        <img src="img/placeholder-lightgrey.jpg" alt="">
+
+        <div class="details">
+            <h4>Rainfall Calculator</h4>
+            <p>The ARP Rainfall Calculator assists you in choosing the correct gutter size and the correct number of downpipes by using specific local rainfall data and the guidelines set out in BS EN 12056.</p>
+            <a href="#">Learn more</a>
+        </div>
+
+    </div>
+
+    <!-- CALLOUT -->
+
+    <div class="callout">
+        <h3>Request a quote or sample today</h3>
+        <a href="#">Request a Quote</a>
+        <a href="#">Request a Sample</a>
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="container">
+
+            <ul class="clearfix">
+                <li class="title">Popular Products</li>
+                <li><a href="">Half-round Gutters</a></li>
+                <li><a href="">Beaded Half-round Gutters</a></li>
+                <li><a href="">Deepflow Half-round Gutters</a></li>
+                <li><a href="">Victorian Ogee Gutters</a></li>
+                <li><a href="">Moulded No46 Ogee Gutters</a></li>
+            </ul>
+
+            <ul class="clearfix">
+                <li class="title">Quick Links</li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Key Information</a></li>
+                <li><a href="">Case Studies</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+
+            <ul class="clearfix">
+                <li class="title">Company Information</li>
+                <li><a href="">Terms & Conditions</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">FAQs</a></li>
+            </ul>
+
+            <div class="social">
+
+                <img src="img/logo.png" alt="">
+
+                <a href="#"><img src="img/fb-icon.svg" alt=""></a>
+                <a href="#"><img src="img/tw-icon.svg" alt=""></a>
+
+            </div>
+
+            <p class="legal">ARP Ltd © 2017 All rights reserved. Site by Un.titled</p>
+
+        </div>
+    </footer>
+
+<a class="hamburger active" href="#">
+  <img src="img/hamburger.svg" alt="">
+</a>
+
+<a class="close" href="#">
+  <img src="img/close.svg" alt="">
+</a>
+
+    <div class="mobile-nav">
+      <div class="container">
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About <img src="img/down-arrow.svg"></a>
+                <ul class="dropdown">
+                    <li><a href="#">Core Values</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Who Are We</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">The ARP Difference</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Products <img src="img/down-arrow.svg"></a>
+                <ul class="dropdown">
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Brands</a></li>
+                    <li><a href="#">Sample Request</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Services <img src="img/down-arrow.svg"></a>
+                <ul class="dropdown">
+                    <li><a href="#">CPD</a></li>
+                    <li><a href="#">Rainfall Calculator</a></li>
+                    <li><a href="#">Find an Installer</a></li>
+                    <li><a href="#">Quote Request</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Key Information <img src="img/down-arrow.svg"></a>
+                <ul class="dropdown">
+                    <li><a href="#">Handling</a></li>
+                    <li><a href="#">Supply Management</a></li>
+                    <li><a href="#">Benefits of Aluminium</a></li>
+                    <li><a href="#">Getting Started</a></li>
+                    <li><a href="#">Certificates and Standards</a></li>
+                    <li><a href="#">Specification </a></li>
+                    <li><a href="#">FAQ's</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Case Studies</a></li>
+              <li><a href="#">Contact <img src="img/down-arrow.svg"></a>
+                  <ul class="dropdown">
+                      <li><a href="#">Contact ARP</a></li>
+                      <li><a href="#">Sales Contacts</a></li>
+                  </ul>
+              </li>
+          </ul>
+      </div>
+    </div>
+
+<script type="text/javascript">
+$(function() {
+// open mobile menu
+$(".hamburger").on('click', function(e) {
+    e.preventDefault();
+    $(".mobile-nav").addClass("active");
+    $(".close").addClass("active");
+    $(".hamburger").removeClass("active");
+    $("body").addClass("clicked");
+});
+// close mobile menu
+$(".close").on('click', function(e) {
+    e.preventDefault();
+    $(".mobile-nav").removeClass("active");
+    $(".close").removeClass("active");
+    $(".hamburger").addClass("active");
+    $("body").removeClass("clicked");
+});
+});
+</script>
+
+</body>
+
+
+
+</html>

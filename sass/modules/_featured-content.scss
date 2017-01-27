@@ -1,0 +1,97 @@
+.featured-content {
+    height: 560px;
+    overflow: hidden;
+    @include breakpoint($break-small) {
+        height: auto;
+    }
+
+    img {
+        width: 31.38888%;
+        float: left;
+        display: inline-block;
+        height: 100%;
+        @include breakpoint($break-medium) {
+            width: 50%;
+        }
+        @include breakpoint($break-small) {
+            width: 100%;
+            height: 400px;
+            float: left;
+        }
+    }
+
+    .details {
+        background: #838383;
+        float: left;
+        display: inline-block;
+        width: 68.61112%;
+        height: 100%;
+        color: #fff;
+        @include breakpoint($break-medium) {
+            width: 50%;
+        }
+        @include breakpoint($break-small) {
+            width: 100%;
+            float: none;
+            padding: 50px 0;
+        }
+
+        h4 {
+            font-size: 24px;
+            font-weight: 300;
+            margin: 190px auto 20px;
+            max-width: 75%;
+            @include breakpoint($break-medium) {
+                margin: 160px auto 20px;
+            }
+            @include breakpoint($break-small) {
+                margin-top: 0;
+                max-width: 90%;
+            }
+            @include breakpoint($break-xsmall) {
+                text-align: center;
+            }
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 24px;
+            margin: 0 auto;
+            max-width: 75%;
+            margin-bottom: 25px;
+            @include breakpoint($break-small) {
+                max-width: 90%;
+            }
+            @include breakpoint($break-xsmall) {
+                text-align: center;
+            }
+        }
+
+        a {
+            float: left;
+            display: inline-block;
+            background: #F1F1F2;
+            color: #878787;
+            font-size: 14px;
+            font-weight: 500;
+            margin-left: 12.5%;
+            padding: 11px 37px;
+            border-radius: 5px;
+            text-decoration: none;
+            @include breakpoint($break-small) {
+                margin-left: 5%;
+            }
+            @include breakpoint($break-xsmall) {
+                margin: 0 auto;
+                display: block;
+                text-align: center;
+                float: none;
+                    width: 76px;
+            }
+            &:hover {
+              background: #B7BCC0;
+              color: #fff;
+            }
+        }
+    }
+}

@@ -1,0 +1,105 @@
+footer {
+    border-top: 1px solid #B7BCC0;
+    padding: 50px 0 20px;
+    overflow: hidden;
+
+    .container {
+        @include breakpoint($break-small) {
+            text-align: center;
+        }
+    }
+
+    ul {
+        display: inline-block;
+        float: left;
+        margin: 0 100px 50px 0;
+        padding: 0;
+        @media (max-width: 1102px) {
+            margin-right: 7%;
+        }
+        @include breakpoint($break-small) {
+            float: none;
+            margin: 0 auto 20px;
+            overflow: hidden;
+            width: auto;
+            clear: left;
+            width: 208px;
+        }
+
+        li {
+            font-size: 16px;
+            display: inline-block;
+            float: left;
+            color: black;
+            clear: left;
+            line-height: 24px;
+
+            &.title {
+                font-weight: 500;
+                margin-bottom: 20px;
+            }
+
+            a {
+                font-size: 16px;
+                font-weight: 300;
+                display: inline-block;
+                text-decoration: none;
+                color: #5D5D5D;
+            }
+        }
+    }
+
+    .social {
+        text-align: center;
+        float: right;
+        margin-top: 36px;
+        @media (max-width: 1102px) {
+            margin-top: 39px;
+        }
+
+        @include breakpoint($break-small) {
+            width: 130px;
+            overflow: hidden;
+            float: none;
+            display: block;
+            margin: 30px auto 20px;
+        }
+
+        img {
+            margin: 0 auto 20px;
+            @media (max-width: 1102px) {
+                width: 130px;
+                float: right;
+                margin: 0;
+            }
+        }
+
+        a {
+            float: none;
+            display: inline-block;
+            width: 40px;
+            height: auto;
+            @media (max-width: 1102px) {
+                float: left;
+                margin: -7px 7px 0 0;
+            }
+            @include breakpoint($break-small) {
+                float: none;
+                margin: 15px 7px 0 0;
+            }
+        }
+    }
+
+    .legal {
+        color: #909090;
+        font-size: 14px;
+        float: left;
+        clear: left;
+        font-weight: 100;
+        margin: 0;
+
+        @include breakpoint($break-small) {
+            float: none;
+        }
+    }
+}

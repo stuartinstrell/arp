@@ -1,0 +1,68 @@
+header {
+    padding: 35px 0;
+
+    .container {
+        overflow: hidden;
+    }
+
+    .logo {
+        float: left;
+        @media (max-width: 940px) {
+            width: 150px;
+        }
+    }
+
+    .phone-mobile {
+        float: left;
+        display: none;
+
+        img {
+            float: left;
+            display: inline-block;
+            margin: 11px 0 0 30px;
+            @media (max-width: 940px) {
+                    margin: 2px 0 0 30px;
+            }
+            @include breakpoint($break-small) {
+                margin: 5px 0 0 30px;
+            }
+        }
+        @include breakpoint($break-large) {
+            display: block;
+        }
+    }
+
+    .search {
+        float: right;
+        margin-top: 5px;
+        @media (max-width: 940px) {
+            display: none;
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: 300;
+            float: left;
+            margin: 12px 30px 0 0;
+            @include breakpoint($break-large) {
+                display: none;
+            }
+        }
+
+        input {
+            float: right;
+            border: 1px solid #D0D2D3;
+            background: url("../img/search-icon.svg") 95% center no-repeat white;
+            border-radius: 22px;
+            width: 268px;
+            padding: 10px 15px;
+            transition: 0.5s;
+            &:hover {
+              width: 400px;
+            }
+        }
+    }
+    @media (max-width: 940px) {
+        padding: 20px 0;
+    }
+}

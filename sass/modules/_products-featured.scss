@@ -1,0 +1,83 @@
+#products-featured {
+    border-bottom: 1px solid #B7BCC0;
+    overflow: hidden;
+    @include breakpoint($break-medium) {
+        border-bottom: 0;
+    }
+    @include breakpoint($break-small) {
+        border-bottom: 0;
+    }
+
+    div {
+        background: $lightgrey;
+        text-align: center;
+        display: inline-block;
+        float: left;
+        width: 25%;
+        overflow: hidden;
+        box-shadow: -1px 0 0 #B7BCC0 inset;
+        padding: 74px 0;
+        @include breakpoint($break-medium) {
+            width: 50%;
+            box-shadow: 0 -1px 0 #B7BCC0 inset, -1px 0 0 #B7BCC0 inset;
+            &:nth-child(2) {
+              box-shadow: 0 -1px 0 #B7BCC0 inset;
+            }
+            &:last-child {
+              box-shadow: 0 -1px 0 #B7BCC0 inset;
+            }
+        }
+        @include breakpoint($break-xsmall) {
+            width: 100%;
+            box-shadow: none;
+            border-bottom: 1px solid #B7BCC0;
+            &:nth-child(2) {
+              box-shadow: none;
+            }
+            &:last-child {
+              box-shadow: none;
+            }
+        }
+
+        &:last-child {
+            box-shadow: 0;
+        }
+
+        h3 {
+            font-size: 20px;
+            margin: 0 auto 20px;
+            font-weight: 300;
+            max-width: 80%;
+            text-align: center;
+            height: 47px;
+            @media (max-width: 940px) {
+                height: 77px;
+            }
+            @media (max-width: 700px) {
+                font-size: 18px;
+            }
+            @include breakpoint($break-xsmall) {
+                height: auto;
+            }
+        }
+
+        a {
+            background: #B7BCC0;
+            border-radius: 5px;
+            padding: 11px 30px;
+            display: inline-block;
+            color: #fff;
+            text-decoration: none;
+            font-size: 14px;
+            @media (max-width: 700px) {
+                padding: 11px 15px;
+            }
+            @include breakpoint($break-small) {
+                    padding: 11px 34px;
+            }
+            &:hover {
+              background: #94989c;
+            }
+        }
+    }
+}

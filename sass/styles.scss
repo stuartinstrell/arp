@@ -1,0 +1,60 @@
+// third party mixins
+
+@import 'vendor/normalize/normalize'; //standardize browser defauls
+@import 'vendor/breakpoint-sass/stylesheets/breakpoint'; //breakpoint mixins
+
+// breakpoints
+
+$break-large: (max-width : 1024px) ;
+$break-medium: (max-width : 768px);
+$break-small: (max-width : 650px);
+$break-xsmall: (max-width : 414px);
+
+// colours
+
+$lightgrey: #F3F3F3;
+$grey: #D8D8D8;
+$darkgrey: #D0D2D3;
+
+// site modules
+
+@import 'modules/header';
+@import 'modules/nav';
+@import 'modules/hero';
+@import 'modules/core-values';
+@import 'modules/products-featured';
+@import 'modules/case-studies-carousel';
+@import 'modules/featured-content';
+@import 'modules/callout';
+@import 'modules/footer';
+@import 'modules/mobile-nav';
+
+// master styles
+
+body {
+  font-family: helvetica, sans-serif;
+  overflow-x: hidden;
+  &.clicked {
+    overflow: hidden;
+  }
+}
+
+.container {
+  width: 1200px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */

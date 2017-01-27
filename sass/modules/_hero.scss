@@ -1,0 +1,111 @@
+#hero {
+    height: 900px;
+    //background: url('../img/placeholder.svg') center no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-top: 1px solid #B7BCC0;
+
+    .container {
+        padding-top: 316px;
+        @include breakpoint($break-large) {
+            padding: 150px 0;
+        }
+        @include breakpoint($break-small) {
+            padding: 70px 0;
+        }
+    }
+
+    h1 {
+        font-size: 42px;
+        font-weight: 200;
+        margin: 0 0 15px;
+        @include breakpoint($break-small) {
+            margin: 0 auto 15px;
+            max-width: 80%;
+            font-size: 21px;
+            font-weight: 500;
+        }
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 300;
+        margin: 0 0 35px;
+    }
+
+    .product-select {
+        text-align: center;
+
+        .select {
+            float: none;
+            display: inline-block;
+            margin: 0 10px 0 0;
+            position: relative;
+            @include breakpoint($break-xsmall) {
+                margin: 0 auto;
+                width: 70%;
+            }
+
+            select {
+                border: 1px solid #B7BCC0;
+                background: transparent;
+                -webkit-appearance: none;
+                border-radius: 5px;
+                padding-left: 15px;
+                height: 40px;
+                width: 206px;
+                color: #878787;
+                position: relative;
+                z-index: 1;
+                @include breakpoint($break-small) {
+                    margin-bottom: 10px;
+                }
+                @include breakpoint($break-xsmall) {
+                    width: 100%;
+                }
+                &:hover {
+                  cursor: pointer;
+                }
+            }
+
+            &:after {
+                content: '';
+                display: block;
+                position: absolute;
+                height: 38px;
+                width: 40px;
+                top: 0;
+                right: 0;
+                background: url('../img/down-arrow-grey.svg') center no-repeat #F1F1F2;
+                border: 1px solid #B7BCC0;
+                border-radius: 0 5px 5px 0;
+                z-index: 0;
+            }
+        }
+
+        a {
+            float: none;
+            background: #F1F1F2;
+            border: 1px solid #B7BCC0;
+            border-radius: 5px;
+            font-size: 14px;
+            color: #878787;
+            font-weight: bold;
+            display: inline-block;
+            padding: 11px 35px;
+            text-decoration: none;
+            @include breakpoint($break-xsmall) {
+                display: block;
+                width: 52%;
+                margin: 0 auto;
+            }
+            &:hover {
+              background: #B7BCC0;
+              color: #fff;
+            }
+        }
+    }
+    @include breakpoint($break-large) {
+        height: auto;
+    }
+}

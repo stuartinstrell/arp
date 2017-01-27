@@ -1,0 +1,51 @@
+.callout {
+    text-align: center;
+    padding: 45px 0;
+
+    h3 {
+        font-size: 22px;
+        font-weight: 300;
+        float: none;
+        display: inline-block;
+        margin: 0 100px 0 0;
+        @include breakpoint($break-medium) {
+            margin: 0 20px 0 0;
+        }
+        @media (max-width: 700px) {
+            font-size: 20px;
+            margin: 0 10px 0 0;
+        }
+        @include breakpoint($break-small) {
+            width: 100%;
+            margin-bottom: 25px;
+        }
+    }
+
+    a {
+        float: none;
+        display: inline-block;
+        margin-right: 5px;
+        padding: 11px 15px;
+        border-radius: 5px;
+        text-decoration: none;
+        background: #F1F1F2;
+        color: #878787;
+        border: 1px solid #BBBDBF;
+
+        &:last-child {
+            margin-right: 0;
+            @include breakpoint($break-xsmall) {
+                margin-right: auto;
+            }
+        }
+        @include breakpoint($break-xsmall) {
+            margin: 0 auto 10px;
+            width: 70%;
+            display: block;
+        }
+        &:hover {
+          background: #BBBDBF;
+          color: #fff;
+        }
+    }
+}
